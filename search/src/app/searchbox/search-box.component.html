@@ -1,0 +1,21 @@
+<div class="search-container">
+  <div class="recipi">
+    <p>search-box works!</p>
+    <ul>
+      <div *ngFor="let food of allRecipe">
+        <li>{{ food.name }}</li>
+      </div>
+    </ul>
+  </div>
+  <div class="search">
+    <p>search List</p>
+    <input
+      type="text"
+      placeholder="search here"
+      (input)="searchHandler($event)"
+    />
+    <div *ngFor="let e of searchState">{{e.name}}</div>
+   
+    <div *ngFor="let s of searchHistory">  Search History{{s.name}}</div>
+  </div>
+</div>

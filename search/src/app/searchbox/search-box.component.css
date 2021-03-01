@@ -1,0 +1,37 @@
+.search-container{
+display: flex;
+width: 80%;
+padding: auto;
+margin: auto;
+justify-content: center;
+}
+.recipi{
+
+flex: 1;
+width: 100%;
+margin-left: 15px;
+padding: 20px;
+border: solid 10px rgb(250, 200, 200);
+color: white;
+background-color: rgb(85, 88, 88);
+}
+.search{
+flex: 1;
+width: 100%;
+align-items: center;
+padding: 20px;
+border: solid 10px rgb(250, 200, 200);
+color: white;
+margin-left: 30px;
+background-color: rgb(85, 88, 88);
+}
+@media screen and (max-width:720Px){
+    .search{
+       display:none  
+    }
+    .recipe{
+        display:none  
+
+    }
+
+}

@@ -1,0 +1,35 @@
+.container {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+
+  background-color: rgba(238, 230, 230, 0.842);
+}
+.myNav {
+  height: 7vh;
+  width: 90%;
+  margin: auto;
+  display: flex;
+  background-color: rgb(190, 230, 231);
+}
+.home {
+  flex: 1;
+  font-size: larger;
+  padding: 10px;
+}
+.searchBox {
+  flex: 1;
+  font-size: larger;
+  padding: 10px;
+}
+.home:hover {
+  
+  font-size: larger;
+ background-color: rgb(105, 194, 194);
+}
+.searchBox:hover {
+  
+  font-size: larger;
+  background-color: rgb(74, 131, 131);
+}
